@@ -49,7 +49,7 @@ public class Calc {
         } else if (operator == '/') {
             result = a / b;
         } else {
-            System.out.print("Не удалось определить действие. Попробуйте снова!");
+            System.out.print("Не удалось определить действие. Попробуйте снова! +, - , *, /");
             result = calculator(a, b, operator);
         }
 
